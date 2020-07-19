@@ -1,5 +1,7 @@
 # pomotoro
 
+[![danielgomezrico](https://circleci.com/gh/danielgomezrico/pomotoro-flutter.svg?style=svg)](https://app.circleci.com/pipelines/github/danielgomezrico/pomotoro-flutter)
+
 A new Flutter application.
 
 ## Getting Started
