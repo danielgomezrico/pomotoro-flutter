@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cirrusci/flutter:v1.17.5
+      - image: cirrusci/flutter:v1.5.8
 
     branches:
       only: master
@@ -15,11 +15,11 @@ jobs:
           command: flutter doctor
 
       - run:
-          name: Tests
+          name: Run the application tests
           command: flutter test
 
       - run:
-          name: Build Android
+          name: Build the Android version
           command: flutter build apk
 
       - store_artifacts:
