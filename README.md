@@ -1,6 +1,7 @@
 # pomotoro
 
 [![danielgomezrico](https://circleci.com/gh/danielgomezrico/pomotoro-flutter.svg?style=svg)](https://app.circleci.com/pipelines/github/danielgomezrico/pomotoro-flutter)
+[![codecov](https://codecov.io/gh/danielgomezrico/pomotoro-flutter/branch/master/graph/badge.svg)](https://codecov.io/gh/danielgomezrico/pomotoro-flutter)
 
 A new Flutter application.
 
