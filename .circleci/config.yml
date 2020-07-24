@@ -16,7 +16,9 @@ jobs:
 
       - run:
           name: Run the application tests
-          command: flutter test
+          command: |
+            flutter test --coverage
+            bash <(curl -s https://codecov.io/bash)
 
       - run:
           name: Build the Android version
